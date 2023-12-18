@@ -17,7 +17,7 @@
 
                                 <div class="btn-box">
                                     <div class="d-flex align-items-center">
-                                        <a href="contact.php" class="default-btn">Talk to an expert</a>
+                                        <a href="{{url('contact')}}" class="default-btn">Talk to an expert</a>
                                        
                                     </div>
                                 </div>
@@ -73,9 +73,9 @@
                                 <div class="circle-two"></div>
                             </div> -->
                         </div>
-                        <h3><a href="conversationalai.php">Conversational AI</a></h3>
+                        <h3><a href="{{url('conversationalai')}}">Conversational AI</a></h3>
                         <p>A positive customer experience can be expedited by determining caller intent quickly.</p>
-                        <a href="conversationalai.php" class="learn-more-btn"><i
+                        <a href="{{url('conversationalai')}}" class="learn-more-btn"><i
                                 class="left-icon flaticon-next-button"></i> Learn More <i
                                 class="right-icon flaticon-next-button"></i></a>
                     </div>
@@ -89,9 +89,9 @@
                                 <div class="circle-two"></div>
                             </div> -->
                         </div>
-                        <h3><a href="canada-virtual-phone-number.php">Virtual number</a></h3>
+                        <h3><a href="{{asset('canada-virtual-phone-number')}}">Virtual number</a></h3>
                         <p>Get a virtual phone number to route all the business departments to an IVR or mobile without any hassle.</p>
-                        <a href="canada-virtual-phone-number.php" class="learn-more-btn"><i
+                        <a href="{{asset('canada-virtual-phone-number')}}" class="learn-more-btn"><i
                                 class="left-icon flaticon-next-button"></i> Learn More <i
                                 class="right-icon flaticon-next-button"></i></a>
                     </div>
@@ -105,11 +105,11 @@
                                 <div class="circle-two"></div>
                             </div> -->
                         </div>
-                        <h3><a href="canada-toll-free-number.php">Toll Free</a></h3>
+                        <h3><a href="{{asset('canada-toll-free-number')}}">Toll Free</a></h3>
                         <p>
                         Get domestic and international toll free numbers and make it fast to contact your business.
                         </p>
-                        <a href="canada-toll-free-number.php" class="learn-more-btn"><i
+                        <a href="{{asset('canada-toll-free-number')}}" class="learn-more-btn"><i
                                 class="left-icon flaticon-next-button"></i> Learn More <i
                                 class="right-icon flaticon-next-button"></i></a>
                     </div>
@@ -123,10 +123,10 @@
                                 <div class="circle-two"></div>
                             </div> -->
                         </div>
-                        <h3><a href="call-center.php">Distributed Call Center</a></h3>
+                        <h3><a href="{{asset('call-center')}}">Distributed Call Center</a></h3>
                         <p>Avail the most of both the inbound call center and outbound call center services on cloud
                         </p>
-                        <a href="call-center.php" class="learn-more-btn"><i
+                        <a href="{{asset('call-center')}}" class="learn-more-btn"><i
                                 class="left-icon flaticon-next-button"></i> Learn More <i
                                 class="right-icon flaticon-next-button"></i></a>
                     </div>
@@ -141,9 +141,9 @@
                                 <div class="circle-two"></div>
                             </div> -->
                         </div>
-                        <h3><a href="e-fax.php">E-Fax</a></h3>
+                        <h3><a href="{{asset('e-fax')}}">E-Fax</a></h3>
                         <p>Get fax directly to your inbox without having a physical fax machine and send it using our platform.</p>
-                        <a href="e-fax.php" class="learn-more-btn"><i class="left-icon flaticon-next-button"></i> Learn More <i
+                        <a href="{{asset('e-fax')}}" class="learn-more-btn"><i class="left-icon flaticon-next-button"></i> Learn More <i
                                 class="right-icon flaticon-next-button"></i></a>
                     </div>
                 </div>
@@ -156,10 +156,10 @@
                                 <div class="circle-two"></div>
                             </div> -->
                         </div>
-                        <h3><a href="smart-ivr-system.php">Smart IVR</a></h3>
+                        <h3><a href="{{asset('smart-ivr-system')}}">Smart IVR</a></h3>
                         <p>Build a IVR flow to control a large number of incoming calls and direct straight to agents according to the caller's input.
                         </p>
-                        <a href="smart-ivr-system.php" class="learn-more-btn"><i
+                        <a href="{{asset('smart-ivr-system')}}" class="learn-more-btn"><i
                                 class="left-icon flaticon-next-button"></i> Learn More <i
                                 class="right-icon flaticon-next-button"></i></a>
                     </div>
@@ -173,9 +173,9 @@
                                 <div class="circle-two"></div>
                             </div> -->
                         </div>
-                        <h3><a href="phone-number-masking.php">Number masking</a></h3>
+                        <h3><a href="{{url('phone-number-masking')}}">Number masking</a></h3>
                         <p>protection for the privacy of customers, by their phone numbers secure without any exchange of information.</p>
-                        <a href="phone-number-masking.php" class="learn-more-btn"><i class="left-icon flaticon-next-button"></i> Learn More <i
+                        <a href="{{url('phone-number-masking')}}" class="learn-more-btn"><i class="left-icon flaticon-next-button"></i> Learn More <i
                                 class="right-icon flaticon-next-button"></i></a>
                     </div>
                 </div>
@@ -191,12 +191,12 @@
                                 <div class="circle-two"></div>
                             </div> -->
                         </div>
-                        <h3><a href="outbound-call-service.php">Outbound Calling</a></h3>
+                        <h3><a href="{{asset('outbound-call-service')}}">Outbound Calling</a></h3>
                         <p>
                         Enhance the productivity with automated outbound calls for agents and optimize their time strategically.
 
                         </p>
-                        <a href="outbound-call-service.php" class="learn-more-btn"><i
+                        <a href="{{asset('outbound-call-service')}}" class="learn-more-btn"><i
                                 class="left-icon flaticon-next-button"></i> Learn More <i
                                 class="right-icon flaticon-next-button"></i></a><br><br>
                     </div>
@@ -212,9 +212,9 @@
                                 <div class="circle-two"></div>
                             </div> -->
                         </div>
-                        <h3><a href="messaging.php">Text Messaging</a></h3>
+                        <h3><a href="{{url('messaging')}}">Text Messaging</a></h3>
                         <p>Through our platform, send promotional and transactional text messages to customers with the same virtual number.</p>
-                        <a href="messaging.php" class="learn-more-btn"><i class="left-icon flaticon-next-button"></i> Learn More <i
+                        <a href="{{url('messaging')}}" class="learn-more-btn"><i class="left-icon flaticon-next-button"></i> Learn More <i
                                 class="right-icon flaticon-next-button"></i></a>
                     </div>
                 </div>
@@ -227,10 +227,10 @@
                                 <div class="circle-two"></div>
                             </div> -->
                         </div>
-                        <h3><a href="call-conferencing-service.php">Conferencing</a></h3>
+                        <h3><a href="{{url('call-conferencing-service')}}">Conferencing</a></h3>
                         <p>A simple yet feature-rich audio and web conferencing program to host all meetings online anytime from anywhere.
                         </p>
-                        <a href="call-conferencing-service.php" class="learn-more-btn"><i
+                        <a href="{{url('call-conferencing-service')}}" class="learn-more-btn"><i
                                 class="left-icon flaticon-next-button"></i> Learn More <i
                                 class="right-icon flaticon-next-button"></i></a>
                     </div>
@@ -315,10 +315,10 @@
                                 <div class="circle-two"></div>
                             </div> -->
                         </div>
-                        <h3><a href="click-to-call.php">Click to Call</a></h3>
+                        <h3><a href="{{url('click-to-call')}}">Click to Call</a></h3>
                         <p>Enable yourself to connect with customers and agents quickly and efficiently with a click to call.
                         </p>
-                        <a href="click-to-call.php" class="learn-more-btn"><i
+                        <a href="{{url('click-to-call')}}" class="learn-more-btn"><i
                                 class="left-icon flaticon-next-button"></i> Learn More <i
                                 class="right-icon flaticon-next-button"></i></a>
                     </div>
@@ -934,7 +934,7 @@ follows:
                         <h2>Our support center is available round the clock 365 days.</h2>
                         <p>We'd love to hear from you. Here's how you can reach us.
 Interested in the Cafmotel platform but don't know what to choose? Give us a call and we'll offer the solution that works for your industry.</p>
-                        <a href="contact.php" class="default-btn">Get Started</a>
+                        <a href="{{url('contact')}}" class="default-btn">Get Started</a>
                     </div>
                 </div>
             </div>
