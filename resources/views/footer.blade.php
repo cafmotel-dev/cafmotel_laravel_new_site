@@ -12,13 +12,13 @@
                         <p>We at Cafmotel help every small or big business to rule the world with the smartest communication solutions. Making it simple and straightforward to generate leads, building relations, and converting the interaction into a deal, we help the enterprises to grow their revenue through our all-in-one "Voice, Text, Email, and Fax" platform by holding hands through the entire process.</p>
 
                         <ul class="social-link">
-                            <li><a href="https://www.facebook.com/Cafmotel" class="d-block" target="_blank"><i
+                            <li><a href="{{env('FACEBOOK_LINK')}}" class="d-block" target="_blank"><i
                                         class='bx bxl-facebook'></i></a></li>
-                            <li><a href="https://twitter.com/Cafmotel" class="d-block" target="_blank"><i
+                            <li><a href="{{env('TWITTER_LINK')}}" class="d-block" target="_blank"><i
                                         class='bx bxl-twitter'></i></a></li>
-                            <li><a href="https://www.instagram.com/Cafmotel/" class="d-block" target="_blank"><i
+                            <li><a href="{{env('INSTAGRAM_LINK')}}" class="d-block" target="_blank"><i
                                         class='bx bxl-instagram'></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/Cafmotel" class="d-block"
+                            <li><a href="{{env('LINKEDIN_LINK')}}" class="d-block"
                                     target="_blank"><i class='bx bxl-linkedin'></i></a></li>
                         </ul>
                     </div>
