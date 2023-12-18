@@ -904,7 +904,7 @@ follows:
 
 
                 <p class="text" style="color:black;">All Packages include a <strong style="font-weight:bold;">30-day money back guarantee.</strong></p>
-                <p class="text" style="color:black;">Have a question? Call us at <a href="tel:+16315571989">+1631 557 1989</a> ext 1 or email us at sales@Cafmotel.com.</p>
+                <p class="text" style="color:black;">Have a question? Call us at <a href="tel:+16315571989">{{env('CALL_US')}}</a> ext 1 or email us at {{env('SUPPORT_EMAIL')}}.</p>
                 </div>
             </div>
 

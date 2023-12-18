@@ -29,12 +29,12 @@
                         <h3>Explore</h3>
 
                         <ul class="footer-links-list">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="conversationalai.php">Conversational AI</a></li>
-                            <li><a href="reseller-program.php">Reseller Program</a></li>
+                            <li><a href="{{url('welcome')}}">Home</a></li>
+                            <li><a href="{{url('conversationalai')}}">Conversational AI</a></li>
+                            <li><a href="{{url('reseller-program')}}">Reseller Program</a></li>
                             
-                            <li><a href="career.php">Careers</a></li>
-                            <li><a href="contact.php">Contact Us</a></li>
+                            <li><a href="{{url('career')}}">Careers</a></li>
+                            <li><a href="{{url('contact')}}">Contact Us</a></li>
 
                             
                         </ul>
@@ -46,14 +46,14 @@
                         <h3>Featured Services</h3>
 
                         <ul class="footer-links-list">
-                        <li><a href="canada-virtual-phone-number.php">Virtual phone number</a></li>
-                            <li><a href="smart-ivr-system.php">Best Smart IVR Solution</a></li>
-                            <li><a href="canada-toll-free-number.php">Buy Toll Free Number</a></li>
-                            <li><a href="call-center-services.php">Best Call Center Services</a></li>
-                            <li><a href="outbound-call-service.php">Outbound Call Service</a></li>
-                            <li><a href="phone-number-masking.php">Best Phone Number Masking</a></li>
-                            <li><a href="call-conferencing-service.php">Best Conference Call Service</a></li>
-                            <li><a href="missed-call-service.php">Best Missed Call Services</a></li>
+                        <li><a href="{{url('canada-virtual-phone-number')}}">Virtual phone number</a></li>
+                            <li><a href="{{url('smart-ivr-system')}}">Best Smart IVR Solution</a></li>
+                            <li><a href="{{url('canada-toll-free-number')}}">Buy Toll Free Number</a></li>
+                            <li><a href="{{url('call-center-services')}}">Best Call Center Services</a></li>
+                            <li><a href="{{url('outbound-call-service')}}">Outbound Call Service</a></li>
+                            <li><a href="{{url('phone-number-masking')}}">Best Phone Number Masking</a></li>
+                            <li><a href="{{url('call-conferencing-service')}}">Best Conference Call Service</a></li>
+                            <li><a href="{{url('missed-call-service')}}">Best Missed Call Services</a></li>
                             
                         </ul>
                     </div>
@@ -67,11 +67,10 @@
                             <!-- <li><i class='bx bx-map'></i>175 5th Ave Premium Area, New York, NY 10010, United States
                             </li> -->
 
-                            <li><i class='bx bx-phone-call'></i><a href="tel:
-                            +18446142007 ">
-                            +1 844-614-2007 </a></li>
+                            <li><i class='bx bx-phone-call'></i><a href="{{env('MAIN_LINE')}}">{{env('MAIN_LINE')}}
+                           </a></li>
                             <li><i class='bx bx-envelope'></i><a
-                                    href="mailto:sales@cafmotel.com"><span>sales@cafmotel.com</span></a>
+                                    href="{{env('SALES_EMAIL')}}"><span>{{env('SALES_EMAIL')}}</span></a>
                             </li>
 
                         </ul>
