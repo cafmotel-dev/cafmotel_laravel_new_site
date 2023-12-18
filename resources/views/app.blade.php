@@ -69,36 +69,36 @@
                                 <ul class="dropdown-menu">
                                      <li class="nav-item"><a href="" class="nav-link">Virtual Number <i class="bx bx-chevron-down"></i></a>
                                         <ul  class="dropdown-menu">
-                                            <li class="nav-item"><a href="usa-virtual-phone-number.php" class="nav-link">USA</a></li>
-                                            <li class="nav-item"><a href="canada-virtual-phone-number.php" class="nav-link">Canada</a></li>
+                                            <li class="nav-item"><a href="{{url('usa-virtual-phone-number')}}" class="nav-link">USA</a></li>
+                                            <li class="nav-item"><a href="{{url('canada-virtual-phone-number')}}" class="nav-link">Canada</a></li>
                                         </ul>
                                     </li>
-                                    <li class="nav-item"><a href="smart-ivr-system.php" class="nav-link">Smart IVR system</a>
+                                    <li class="nav-item"><a href="{{url('smart-ivr-system')}}" class="nav-link">Smart IVR system</a>
 
                                     </li>
-                                    <li class="nav-item"><a href="call-center-services.php" class="nav-link">Distributed Call Center</a>
+                                    <li class="nav-item"><a href="{{url('call-center-services')}}" class="nav-link">Distributed Call Center</a>
                                     </li>
                                     <!-- <li class="nav-item"><a href="phone-number-masking.php" class="nav-link">Number masking</a></li> -->
                                     <li class="nav-item"><a href="" class="nav-link">Toll Free Number <i class="bx bx-chevron-down"></i></a>
                                         <ul  class="dropdown-menu">
-                                            <li class="nav-item"><a href="usa-toll-free-number.php" class="nav-link">USA</a></li>
-                                            <li class="nav-item"><a href="canada-toll-free-number.php" class="nav-link">Canada</a></li>
+                                            <li class="nav-item"><a href="{{url('usa-toll-free-number')}}" class="nav-link">USA</a></li>
+                                            <li class="nav-item"><a href="{{url('canada-toll-free-number')}}" class="nav-link">Canada</a></li>
                                         </ul>
                                     </li>
-                                    <li class="nav-item"><a href="outbound-call-service.php" class="nav-link">Outbound Call Service</a></li>
-                                    <li class="nav-item"><a href="call-conferencing-service.php" class="nav-link">Conferencing</a></li>
-                                    <li class="nav-item"><a href="e-fax.php" class="nav-link">E-Fax</a></li>
-                                    <li class="nav-item"><a href="messaging.php" class="nav-link">Messaging</a></li>
-                                    <li class="nav-item"><a href="click-to-call.php" class="nav-link">Click to Call</a></li>
+                                    <li class="nav-item"><a href="{{url('outbound-call-service')}}" class="nav-link">Outbound Call Service</a></li>
+                                    <li class="nav-item"><a href="{{url('call-conferencing-service')}}" class="nav-link">Conferencing</a></li>
+                                    <li class="nav-item"><a href="{{url('e-fax')}}" class="nav-link">E-Fax</a></li>
+                                    <li class="nav-item"><a href="{{url('messaging')}}" class="nav-link">Messaging</a></li>
+                                    <li class="nav-item"><a href="{{url('click-to-call')}}" class="nav-link">Click to Call</a></li>
                                     <!-- <li class="nav-item"><a href="missed-call-service.php" class="nav-link">Missed Call Services</a></li> -->
                                 </ul>
                             </li>
-                            <li class="nav-item"><a href="conversationalai.php" class="nav-link">Conversational AI</a></li>
-                            <li class="nav-item"><a href="reseller-program.php" class="nav-link">Reseller Program </a></li>
+                            <li class="nav-item"><a href="{{url('conversationalai')}}" class="nav-link">Conversational AI</a></li>
+                            <li class="nav-item"><a href="{{url('reseller-program')}}" class="nav-link">Reseller Program </a></li>
                             
 
-                            <li class="nav-item"><a href="career.php" class="nav-link">Career</a></li>
-                            <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+                            <li class="nav-item"><a href="{{url('career')}}" class="nav-link">Career</a></li>
+                            <li class="nav-item"><a href="{{url('contact')}}" class="nav-link">Contact</a></li>
                         </ul>
 
                         
