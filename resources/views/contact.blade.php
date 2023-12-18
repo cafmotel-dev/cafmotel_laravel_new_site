@@ -35,8 +35,7 @@
                             <i class='bx bx-map'></i>
                         </div>
                         <h3>Office In USA</h3>
-                        <p>360B RXR Plaza Uniondale,
-NY 11556</p>
+                        <p>{{env('OFFICE_IN_USA')}}</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -48,7 +47,7 @@ NY 11556</p>
                             <i class='bx bx-map'></i>
                         </div>
                         <h3>Office In Canada</h3>
-                        <p>250 Glen Arbour Way, Hammonds Plains, Nova Scotia B4B 1T6</p>
+                        <p>{{env('OFFICE_IN_CANADA')}}</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -60,9 +59,7 @@ NY 11556</p>
                             <i class='bx bx-map'></i>
                         </div>
                         <h3>Office In India</h3>
-                        <p>104/105 Dhruta Complex, Narayan Peth, Pune, Maharashtra 411030
-
-</p>
+                        <p>{{env('OFFICE_IN_INDIA')}}</p>
                     </div>
                 </div>
 
@@ -77,7 +74,7 @@ NY 11556</p>
                             <i class='bx bx-phone-call'></i>
                         </div>
                         <h3>Our Phone</h3>
-                        <p>Main Line: +1 844-614-2007<br/> Sales: Press 1in IVR <br/> Support : Press 2 in IVR
+                        <p>Main Line:{{env('MAIN_LINE')}}<br/> Sales: {{env('SALES')}} <br/> Support :{{env('SUPPORT')}}
 
 </p>
                         
@@ -94,10 +91,10 @@ NY 11556</p>
                             <i class='bx bx-envelope'></i>
                         </div>
                         <h3>Emails</h3>
-                          <p>Sales: <a href="mailto:sales@Cafmotel.com"><span>sales@cafmotel.com</span></a>
+                          <p>Sales: <a href="mailto:sales@Cafmotel.com"><span>{{env('SALES_EMAIL')}}</span></a>
                         </p>
-                        <p>Support: <a href="mailto:support@Cafmotel.com"><span>support@cafmotel.com</span></a></p>
-                        <p>Channel Partners: <a href="mailto:reseller@Cafmotel.com"> reseller@cafmotel.com</a></p>
+                        <p>Support: <a href="mailto:support@Cafmotel.com"><span>{{env('SUPPORT_EMAIL')}}</span></a></p>
+                        <p>Channel Partners: <a href="mailto:reseller@Cafmotel.com"> {{env('CHANNEL_PARTNERS_EMAIL')}}</a></p>
                        
                     </div>
                 </div>

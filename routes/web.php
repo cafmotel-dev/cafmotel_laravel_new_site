@@ -17,6 +17,7 @@ use App\Http\Controllers\ResellerProgramController;
 use App\Http\Controllers\CareerController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PhoneNumberMaskingController;
+use App\Http\Controllers\MissedCallServiceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -48,3 +49,4 @@ Route::get('reseller-program', [ResellerProgramController::class,'index']);
 Route::get('career', [CareerController::class,'index']);
 Route::get('contact', [ContactController::class,'index']);
 Route::get('phone-number-masking', [PhoneNumberMaskingController::class,'index']);
+Route::get('missed-call-service', [MissedCallServiceController::class,'index']);
