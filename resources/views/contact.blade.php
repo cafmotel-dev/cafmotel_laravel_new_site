@@ -1,6 +1,10 @@
 @extends('app')
 @section('content')
 <!-- Start Page Title Area -->
+ <!-- <script src=
+        "https://www.google.com/recaptcha/api.js" async defer>
+    </script> -->
+ 
 <section class="page-title-area">
         <div class="container">
             <div class="page-title-content">
@@ -133,8 +137,21 @@
                 </div>
 
                 <div class="col-lg-6 col-md-12">
+                @if(session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+@endif
+
+@if(session('error'))
+    <div class="alert alert-danger">
+        {{ session('error') }}
+    </div>
+@endif
                                          <div class="contact-form">
-                        <form method="post" role="form">
+                   
+                        <form method="post" role="form"action="{{ route('contact.form') }}">
+                            @csrf
                             <div class="row">
                                 <div class="col-lg-12 col-md-6">
                                     <div class="form-group">
@@ -154,7 +171,7 @@
 
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <input oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" type="text" name="phone" class="form-control" id="phone_number"
+                                        <input  type="text" name="phone" class="form-control" id="phone_number"
                                             required data-error="Please enter your phone number"
                                             placeholder="Your phone number">
                                         <div class="help-block with-errors"></div>
@@ -170,9 +187,10 @@
                                     </div>
                                 </div>
 <!-- div to show reCAPTCHA -->
-<div class="g-recaptcha" 
+
+<!-- <div class="g-recaptcha" 
                 data-sitekey="6LcPjF4iAAAAADIwgoIVh8A2SE25VYblc3M0qZOp">
-            </div>
+            </div> -->
                                 <div class="col-lg-12 col-md-12">
                                     <button type="submit" name="submit" class="default-btn">Send Message</button>
                                     <div id="msgSubmit" class="h3 text-center hidden"></div>
@@ -221,5 +239,12 @@
         </div>
     </div> -->
     <!-- End Map Area -->
-
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>           
+      <script src="https://cdn.jsdelivr.net/npm/imask"></script>
+<script>
+      var phoneInput = document.getElementById('phone_number');
+    var phoneMask = new IMask(phoneInput, {
+        mask: '(000) 000-0000'
+    }); 
+    </script>
 @endsection
