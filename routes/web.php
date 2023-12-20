@@ -18,6 +18,8 @@ use App\Http\Controllers\CareerController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PhoneNumberMaskingController;
 use App\Http\Controllers\MissedCallServiceController;
+use App\Http\Controllers\RequestDemoController;
+use App\Http\Controllers\PrivacyPolicyController;
 
 /*
 |--------------------------------------------------------------------------
@@ -48,5 +50,10 @@ Route::get('conversationalai', [ConversationalAiController::class,'index']);
 Route::get('reseller-program', [ResellerProgramController::class,'index']);
 Route::get('career', [CareerController::class,'index']);
 Route::get('contact', [ContactController::class,'index']);
+Route::post('contact-form', [ContactController::class,'contactForm'])->name('contact.form');
+
 Route::get('phone-number-masking', [PhoneNumberMaskingController::class,'index']);
 Route::get('missed-call-service', [MissedCallServiceController::class,'index']);
+Route::get('request-demo', [RequestDemoController::class,'index']);
+// Route::post('request-demo-form', [RequestDemoController::class,'demoForm'])->name('demo.form');
+Route::get('privacy-policy', [PrivacyPolicyController::class,'index']);
